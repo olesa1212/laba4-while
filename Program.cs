@@ -4,7 +4,7 @@ Console.WriteLine("введите конечное число");
 int b= Convert.ToInt32(Console.ReadLine());
 int c = 0;
 int i = 0;
-while (i < b)
+while (a < b)
 {
     if (i % 12 == 0)
     {
@@ -13,3 +13,4 @@ while (i < b)
     i++;
 }
 Console.WriteLine(c);
+
